@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_merge_pdf" model="ir.actions.act_window">
+        <field name="name">Merge Pdf</field>
+        <field name="res_model">merge.pdf</field>
+        <field name="view_mode">form</field>
+    </record>
+    
+    <menuitem
+        id="merge_pdf_menu"
+        name="Merge Pdf"
+        sequence="100"
+        action="action_merge_pdf"
+        />
+    <!-- merge.pdf form view -->
+    <record id="merge_pdf_view_form" model="ir.ui.view">
+        <field name="name">merge.pdf.view.form</field>
+        <field name="model">merge.pdf</field>
+        <field name="arch" type="xml">
+            <form string="">
+                <header>
+                    <button string="Merge Pdf" name="action_merge" type="object" class="oe_highlight"/>
+                </header>
+                <sheet>
+                    <group>
+                        <!-- Add your fields here -->
+                        <field name="pdf_ids" widget="many2many_binary" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>
