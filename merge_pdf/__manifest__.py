@@ -4,6 +4,7 @@
     'name': "Merge PDF",
     'version': '16.0.1.0.0',
     'depends': ['base'],
+    'author': 'Bruce Zhou', 
     'data': [
         'security/ir.model.access.csv',
         'views/views.xml',
