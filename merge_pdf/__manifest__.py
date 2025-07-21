@@ -5,6 +5,7 @@
     'version': '16.0.1.0.0',
     'depends': ['base'],
     'author': 'Bruce Zhou', 
+    "images": ['static/description/view.png'],
     'data': [
         'security/ir.model.access.csv',
         'views/views.xml',
