@@ -1,5 +1,9 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
-
+# -----------------------------------------------------------------------------
+# Author: hongfeizhou@126.com
+# Experienced Odoo developer with many years of expertise.
+# Skilled in Python, HTML, and JavaScript for building and customizing solutions.
+# -----------------------------------------------------------------------------
 import base64
 import json
 

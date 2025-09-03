@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 # See LICENSE file for full copyright and licensing details.
-
+# -----------------------------------------------------------------------------
+# Author: hongfeizhou@126.com
+# Experienced Odoo developer with many years of expertise.
+# Skilled in Python, HTML, and JavaScript for building and customizing solutions.
+# -----------------------------------------------------------------------------
 import base64
 from odoo import models, fields
 from odoo.addons.web.controllers.report import ReportController
