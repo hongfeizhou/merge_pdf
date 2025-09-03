@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
-
+# -----------------------------------------------------------------------------
+# Author: hongfeizhou@126.com
+# Experienced Odoo developer with many years of expertise.
+# Skilled in Python, HTML, and JavaScript for building and customizing solutions.
+# -----------------------------------------------------------------------------
 {
     'name': "Merge PDF",
     'version': '16.0.1.0.0',
